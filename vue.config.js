@@ -46,11 +46,11 @@ module.exports = {
                     '^/admin': ''
                 }
             },
-            '/ic': {
-                target: 'http://127.0.0.1:8086',
+            '/iot': {
+                target: 'http://127.0.0.1:8082',
                 ws: true,
                 pathRewrite: {
-                    '^/ic': ''
+                    '^/iot': ''
                 }
             },
             '/shop': {
